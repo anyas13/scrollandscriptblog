@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: 'Cardo', serif;
+  color: #ffffff;
+  background-color: #261616;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-family: 'Cardo', serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Cardo', serif;
+  font-size: 1.5em;
+}
+
+.title h1 {
+  font-size: 3.5em;
+}
+
+
+/*Nav Bar*/
+.nav-main {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.upper {
+  padding-left: 5rem;
+}
+
+.upper li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-main a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-shadow: 0 0 10px #ffffff;
+}
+
+.upper li::after {
+  content: '  ';
+  color: #e0e0e0;
+  margin: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1em;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/*Title*/
+.section-one{
+  width: 100%;
+  margin: auto;
+  padding-bottom: 450px;
+  position: relative;
+  background-image: url('/images/fadeheader.jpg');
+  background-repeat: no-repeat;
+}
+
+.title {
+  width: 50%;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 200px;
+}
+
+
+
+/*Top Div*/
+
+.post-container {
+  width: 50%;
+  margin: 100px auto;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.post-container h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+#corners1 {
+  border-radius: 0px;
+  border: 6px solid #958e8d;
+
+}
+
+.footer{
+  text-align: center;
+  color: #ffffff;
+}
+
+/*Compose Form*/
+
+textarea, input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.form-group h1, label{
+  color: #000000;
+}
+
+.post-input{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+	background-color:#261616;
+	border:2px solid #261616;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:17px;
+	padding:13px 37px;
+	text-decoration:none;
+}
+
+button:hover {
+	background-color: #958e8d;
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+  padding-right: 10px;
+}
+
+.fa-goodreads{
+  color: #d2c998;
+}
