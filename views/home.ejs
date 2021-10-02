@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+<div class="post-container" id="corners1">
+<h1>Intro</h1>
+<p>Hi, my name is Anushree. Scroll down to see what I'm up to lately.</p> <br>
+<p>Reading: <i>The Secret History</i> by Donna Tartt & <i>The Education of an Idealist</i> by Samantha Powers</p>
+<p>Learning: Expanding my knowledge of Javascript and learning to build apps with React</p>
+</div>
+
+
+<% posts.slice().reverse().forEach(function(post){ %>
+  <div class="post-container" id="corners1">
+  <h1><%=post.title%></h1>
+    <p><%=post.content.substring(0, 100) + "..."%>
+      <a href="/posts/<%=post.id%>">Read More</a>
+    </p>
+  </div>
+<% }); %>
+
+<%- include("partials/footer"); -%>
